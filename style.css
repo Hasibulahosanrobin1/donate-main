@@ -1,0 +1,109 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    text-align: center;
+}
+.top-hedder{
+    background-image: url(images/donation13.jpg);
+    height:600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+.now-do{
+    padding-top: 100px;
+}
+.now-do h1 {
+    color: aquamarine;
+    font-size: 3em;
+}
+.now-do p{
+    color: aliceblue;
+    font-size: 2em;
+}
+.now-do a{
+    text-decoration: none;
+    color: yellow;
+    padding: 10px 40px;
+    background-image: linear-gradient(orange ,black);
+}
+.felx-box{
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.box{
+    margin: 30px 20px;
+    padding: 40px;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+}
+#unquie{
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+}
+.button{
+    text-decoration: none;
+    background-color: #FF5959;
+    padding-top:10px 10px ;
+    background-image: linear-gradient(tomato black );
+}
+.flex-box{
+    display: flex;
+}
+
+.b-box {
+    margin: 30px 10px;
+    padding: 50px 20px;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+    text-align: left;
+}
+#r{
+    background-color: #FF5959;
+}
+#x{
+    background-color: cadetblue;
+}
+#p{
+    background-color: #a0d4a0;
+}
+.img-row{
+    display: flex;
+    padding: 0 5px;
+    margin-left: 250px;
+}
+.img-column{
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 5px;
+}
+.img-column img{
+    width: 100%;
+    margin-top: 8px;
+}
+.last-secation{
+    margin-top: 60px;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(black white);
+    padding: 10px 10px;
+}
+.form-part{
+    text-align: center;
+}
+footer{
+    width: auto;
+    padding: 40px 0px;
+    background-color: black;
+}
+footer h2{
+    color: #FF5959;
+}
+footer p{
+    color: forestgreen;
+}
